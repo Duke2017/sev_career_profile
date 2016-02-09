@@ -1,0 +1,2100 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cla",
+				"class"
+			],
+			[
+				"data",
+				"data-sap-ui-theme"
+			],
+			[
+				"i_",
+				"i_ad"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"t",
+				"tplWindow"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"Ad",
+				"AdType"
+			],
+			[
+				"vAR",
+				"var_dump"
+			],
+			[
+				"re",
+				"req1	require_once …"
+			],
+			[
+				"publi",
+				"publishDate"
+			],
+			[
+				"to",
+				"toFixed"
+			],
+			[
+				"tr",
+				"trackid"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"whie",
+				"white-space"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"array_p",
+				"array_push"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ty",
+				"typeof"
+			],
+			[
+				"Ref",
+				"RefOfferId"
+			],
+			[
+				"User",
+				"UsersFavs"
+			],
+			[
+				"Re",
+				"Remove"
+			],
+			[
+				"O",
+				"OfferId"
+			],
+			[
+				"ale",
+				"alert"
+			],
+			[
+				"Offer",
+				"OfferId"
+			],
+			[
+				"Offe",
+				"Offermodel"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"OfferT",
+				"OfferToFave"
+			],
+			[
+				"pa",
+				"pagination"
+			],
+			[
+				"som",
+				"someValue"
+			],
+			[
+				"result",
+				"resultList"
+			],
+			[
+				"sele",
+				"selectedValue"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"hourse",
+				"hoursSitter"
+			],
+			[
+				"hours-",
+				"hours-radio"
+			],
+			[
+				"IN",
+				"INTO"
+			],
+			[
+				"offers",
+				"offer_types"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ec",
+				"echo"
+			],
+			[
+				"x",
+				"xmlDoc"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"ac",
+				"acig_content"
+			],
+			[
+				"acig",
+				"acig_content"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"ul",
+				"ulResult"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"sr",
+				"script"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"ea",
+				"ease-in"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"Age",
+				"AgeToStr"
+			],
+			[
+				"au",
+				"autoplay"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"img",
+				"img-wrap"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"BA",
+				"basename"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"cre",
+				"createCurrent"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"btn-",
+				"btn-small"
+			],
+			[
+				"cit",
+				"citySelect"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"ci",
+				"city_id"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"dis",
+				"districts"
+			],
+			[
+				"hist",
+				"history_flag"
+			],
+			[
+				"ads",
+				"adsCount"
+			],
+			[
+				"sub",
+				"sublocality"
+			],
+			[
+				"LEF",
+				"LEFT"
+			],
+			[
+				"sql",
+				"sqlSubway"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"_",
+				"_COOKIE"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"slider",
+				"sliderAge"
+			],
+			[
+				"st",
+				"stations"
+			],
+			[
+				"col",
+				"console"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"kzt8i",
+				"kzt8i_filters_subway"
+			],
+			[
+				"kzt8i_fil",
+				"kzt8i_filters_location"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"cu",
+				"currentPage"
+			],
+			[
+				"page",
+				"page_index"
+			],
+			[
+				"param",
+				"parameters"
+			],
+			[
+				"la",
+				"lala"
+			],
+			[
+				"test",
+				"testpage"
+			],
+			[
+				"ad",
+				"adCount"
+			],
+			[
+				"str",
+				"str2"
+			],
+			[
+				"об",
+				"объявления"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "WebContent/Component.js",
+			"settings":
+			{
+				"buffer_size": 1301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WebContent/view/main.view.xml",
+			"settings":
+			{
+				"buffer_size": 5633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WebContent/i18n/i18n.properties",
+			"settings":
+			{
+				"buffer_size": 170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WebContent/i18n/i18n_ru.properties",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 377.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/i18n",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/view"
+	],
+	"file_history":
+	[
+		"/Users/eduardzvyagintsev/Desktop/js interview.js",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/i18n/i18n_en.properties",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/i18n/i18n_ru_RU.properties",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/i18n/i18n_en_US.properties",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/i18n/i18n.properties",
+		"/Users/eduardzvyagintsev/work/[dev]severstal_career/profile/WebContent/profile/main.view.xml",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/server.js",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/php-errors.log",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/www/index.php",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/www/application/config/database.php",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/package.json",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/www/.htaccess",
+		"/Users/eduardzvyagintsev/work/[dev]newnanny/sftp-config.json",
+		"/Users/eduardzvyagintsev/work/[sap]tabs/package.json",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/Component.js",
+		"/Users/eduardzvyagintsev/work/[sap]tabs/public_html/index.html",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads_rent_flats_mo.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads_rent_flats_mo_ids.json",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/MyRouter.js",
+		"/Users/eduardzvyagintsev/work/openui5/src/sap.m/src/sap/m/Button.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/server.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/AddProduct.view.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/AddProduct.controller.js",
+		"/Users/eduardzvyagintsev/work/openui5/src/sap.m/src/sap/m/App.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/index.html",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/Master.view.xml",
+		"/Users/eduardzvyagintsev/work/openui5/src/sap.m/src/sap/m/themes/sap_hcb/ActionSheet.less",
+		"/Users/eduardzvyagintsev/work/openui5/src/sap.m/src/sap/m/semantic/CancelAction.js",
+		"/Users/eduardzvyagintsev/work/openui5/src/sap.m/test/sap/m/ActionSelect.html",
+		"/Users/eduardzvyagintsev/work/[sap]abp/Gruntfile.js",
+		"/Users/eduardzvyagintsev/work/openui5/package.json",
+		"/Users/eduardzvyagintsev/work/openui5/src/sap.ui.core/src/sap/ui/base/Event.js",
+		"/Users/eduardzvyagintsev/work/openui5/CONTRIBUTING.md",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/NotFound.view.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/css/style.css",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/Detail.controller.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/Master.controller.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/package.json",
+		"/Users/eduardzvyagintsev/work/[sap]abp/npm-debug.log",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/NameRequiredDialog.fragment.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/Detail.view.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/SupplierAddressForm.fragment.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/CategoryInfoForm.fragment.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/util/Formatter.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/view/App.view.xml",
+		"/Users/eduardzvyagintsev/work/[sap]abp/public_html/i18n/messageBundle.properties",
+		"/Users/eduardzvyagintsev/work/[sap]abp/view/Detail.controller.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/view/Master.controller.js",
+		"/Users/eduardzvyagintsev/work/[sap]abp/index.html",
+		"/Users/eduardzvyagintsev/work/[sap]abp/Component.js",
+		"/Applications/XAMPP/xamppfiles/etc/httpd.conf",
+		"/Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf",
+		"/Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf",
+		"/Applications/XAMPP/xamppfiles/etc/extra/httpd-userdir.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/nannies/index.php",
+		"/private/var/folders/rs/62fhklkd1ls4zn228y3qdc4m0000gn/T/fz3temp-1/exportToYandex.php",
+		"/var/folders/rs/62fhklkd1ls4zn228y3qdc4m0000gn/T/sublime-sftp-browse-1433969789/mapped/var/www/dev.devocean.ru/m.kv-istra/assets/js/main.js",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_inserter_rent_flats_msk.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_inserter_rent_rooms_msk.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/index.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_parser_rent_flats_mo.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_parser_rent_rooms_mo.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_inserter_rent_rooms_mo.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_parser_rent_rooms_msk.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads_rent_rooms_mo_ids.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads_rent_rooms_mo.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads_rent_rooms_msk.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads_rent_rooms_msk_ids.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ad_ids.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ged_ads.json",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/ClassMySql.php",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/system/database/DB_active_rec.php",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/system/database/DB_driver.php",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/FlatSearchParser/image.jpg",
+		"/Users/eduardzvyagintsev/work/[dev]auth.devocean.ru/sftp-config.json",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/sftp-config.json",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/api/cityfinder.js",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/application/views/offer/edit.twig",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/apiEngine/modules/mapobjectselect/moduleInit.php",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/api/mapobjectselect.js",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/apiEngine/init.php",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/apiEngine/modules/mapobjectselect/_html/window.html",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/application/controllers/offer.php",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/www/assets/js/main.js",
+		"/Users/eduardzvyagintsev/work/[dev]flatSearch/[dev]flatsearch",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/79C06742-F28B-4F65-952D-1EB475CE7B2F/main.js",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/729EDD16-F98A-4C19-8549-D28DC167D851/searchResult.twig",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/15AA3E04-4FF5-4A0C-8F76-5CAD2343F2DB/main.twig",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/78D4A44A-B766-4179-886C-2F4597EC2504/searchmodel.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/A4D93CE3-F212-4558-8085-E2000C17EF5B/rent.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/2459D9CB-62F6-46F0-A082-40424BBE9023/view.html.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/9E0B2748-1BD6-43B9-8AE6-057C992FF709/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/CD96E243-E714-4FB2-809D-FD4A2182F98E/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/0897A82A-D9C7-436F-BB42-0E2616563686/sicknurse_genxml.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/D8D7E6CF-4622-463A-AE74-0B333B710CAF/housekeeper_genxml.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/04542D35-BA8D-4106-89E3-61F729D19658/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/CDBA8F35-A17B-49FF-B58F-2D59C8DA081F/view.html.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/1D5261D4-BCC0-4FB0-B5E7-4DDD38AB762D/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/39B6287A-D017-4719-A667-3BE5F9329226/nanny_genxml.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/0BA54D63-95CD-4AF4-8957-4F6F41713DA2/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/C70E139A-BD16-4B3C-907C-C82A498AC9F5/nannyoffer.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/923E669E-A5DE-4E7D-B7A0-69EE92FA25FC/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/A4C26AF7-4C65-4F58-A822-738B9B0ADD29/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/09FF5E35-49E6-464F-9E48-6969B469D3E7/view.html.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/D78C18CE-EFCB-498C-A916-2AC3984D08A8/controller.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/420054D6-9529-469E-B70B-C6569671A180/default.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/B2A8412B-A14D-4516-9090-62574CC94A01/nanny-offer.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/B63C4322-F3FF-492C-8AF8-FD4E721BF4C4/housekeeper-offer.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/A57EF22F-3257-4120-BF83-BBD9CB788220/sicknurse-offer.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/F40CDD7A-4CBA-44F6-A2B0-ED36109F5C29/nanny-offer.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/E4B7C310-D6AB-4FB7-BB1F-62B4E0834D36/socialoffers.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/119E0628-F9B3-41FE-B05A-8CA8599363B6/show.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/BEE1BA94-17F5-47A2-9A9F-E62E2A8B3632/view.html.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/FF79F162-CCB3-40B8-BD58-670143BF41BC/social.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/8CF38C40-9B06-44E3-9793-3BCC59B3C8FE/socialoffers.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/4A6211D0-4B6F-4CAD-B18F-5A725F9C7BC5/view.html.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/A9AA37E6-7054-4BEC-BCFD-B4E94C2BE2E6/nanny.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/4DEC591D-E5FB-416D-8577-A5052DBC2B90/nanny.php",
+		"/Users/eduardzvyagintsev/Downloads/FAQ (Rus).txt",
+		"/Users/eduardzvyagintsev/Downloads/Howto (Rus).txt",
+		"/Users/eduardzvyagintsev/Downloads/Recovery software (1)/README.txt",
+		"/Users/eduardzvyagintsev/Downloads/Recovery software (1)/_Start_Ping.bat",
+		"/Users/eduardzvyagintsev/Downloads/Recovery software (1)/root/startup.sh",
+		"/Users/eduardzvyagintsev/Downloads/[watch.is]-A Million Ways to Die in the West_Миллион способов потерять голову-2014.m3u",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/85122549-8E92-4393-8A9A-DCFE34EA47CC/business-lunch.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/CCAE2A95-E3A2-4FD1-BD97-94C3322CCDCA/content.php",
+		"/Users/eduardzvyagintsev/Library/Caches/Cleanup At Startup/Transmit/07D9DD56-B304-4CAC-B98E-74204E5AD11B/content.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"								\n",
+			"\n					",
+			"					\n",
+			"v",
+			"myNavBack",
+			"Formatter",
+			"tabTriggerDD",
+			"\n						",
+			"						<!--",
+			"\n						",
+			"						\n",
+			"В",
+			"/images(.*?)\\.png",
+			"/images(.*?)\\.png\\\"",
+			"data-src=\"/images(.*?)\\.png\\\"",
+			"insert",
+			"inser",
+			"_cityRegionStorage",
+			"regionList",
+			"						\n",
+			"regionList",
+			".cityFinder--regions-list",
+			"								\n",
+			"		\n",
+			"eduardzvyagintsev",
+			"MacBook-Pro-Eduard-Zvyagintsev",
+			"modalTrackPointsChange",
+			"		\n",
+			"enght",
+			"moduleMysql",
+			"getTransportInfo",
+			"text-16",
+			"img-",
+			"@",
+			"typeof",
+			"		\n",
+			" key ",
+			"_merge_cache",
+			"_com",
+			"function stra",
+			"function get",
+			"_com",
+			"select_override",
+			"_limit",
+			"n _limit",
+			"_limit",
+			"_compile_select",
+			"_merge_cache",
+			"_compile_select",
+			"_track_aliases",
+			"_compile_select",
+			"function get",
+			"			\n",
+			"					\n",
+			"ObjectType2Count",
+			"ObjectType1Opts",
+			"sidebar_image",
+			"sideb",
+			"$XAMPP_ROOT/bin/mysql.server",
+			"cu",
+			"Lorem",
+			"			\n",
+			"flat",
+			"icon",
+			"calc-section",
+			"col-xs-",
+			"list-inline",
+			"inline",
+			"horizontal",
+			"<tr>(.*?)</tr>",
+			"						\n",
+			"vhosts",
+			"									\n",
+			"								\n",
+			"									\n",
+			"								\n",
+			"									\n",
+			"hours-radio-1",
+			"hours-form",
+			"nurse-type",
+			"Indexes",
+			" -Indexes",
+			"Options -Indexes",
+			"user",
+			"extr",
+			"www",
+			"direc",
+			"user",
+			"users",
+			"tank_auth",
+			"tank_auth->",
+			"_bin",
+			"offers",
+			"jform_searchAddress",
+			"aler",
+			"resultAddress",
+			"id",
+			"search",
+			"modal-search",
+			"#modal-search",
+			"modal",
+			"@media",
+			"consol",
+			"on",
+			"duration",
+			"on",
+			"before",
+			"@",
+			"/*!",
+			"@media",
+			"substr",
+			"search_terms",
+			"row",
+			"array",
+			"load",
+			"call",
+			"file",
+			"calculate_age",
+			"ageTo",
+			"pages",
+			"pagination",
+			"pages",
+			"data.pages",
+			"displayAds",
+			"/*",
+			"widget",
+			"calculate_age",
+			"displayAds"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$1",
+			"ezv",
+			"MacBook-Pro",
+			"ength",
+			"icomoon",
+			"span",
+			"inline",
+			"-inline",
+			"<tr>$1</tr>\\n\\t",
+			"\\n\\t<tr>$1</tr>",
+			"sitnurse",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "WebContent/Component.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1124,
+								1135
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "WebContent/view/main.view.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5633,
+						"regions":
+						{
+							"gutter_color_1932":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2193":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2196":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2212":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2213":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2216":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2265":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2442":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2458":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2491":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2759":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2760":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4934,
+										4960
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2780":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3103":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3545":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3563":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3764":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3777":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3780":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3792":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3794":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3805":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3873":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3894":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3906":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3977":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3995":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4074":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4128":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4178":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4195":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4216":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4232":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4952,
+										4978
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4462":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4473":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4933,
+										4959
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4485":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4533":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4942,
+										4972
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4605":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4676":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										4936,
+										4962
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_4922":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5215":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5470":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_5736":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_629":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										3955,
+										3955
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_806":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										3955,
+										3955
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_818":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_820":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_849":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										3955,
+										3955
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_852":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_862":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										3955,
+										3955
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_879":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										5232,
+										5232
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_919":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1620,
+										1620
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_921":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1620,
+										1620
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_926":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1620,
+										1620
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_932":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1620,
+										1620
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_942":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1620,
+										1620
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								3823,
+								3823
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1379.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "WebContent/i18n/i18n.properties",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								157
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/JavaProperties.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "WebContent/i18n/i18n_ru.properties",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								25
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Java/JavaProperties.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 325.0
+	},
+	"pinned_build_system": "",
+	"project": "career.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,153 @@
+<mvc:View 
+	controllerName="sap.ui.app.view.main" 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:uxap="sap.uxap"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns="sap.m" 
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	height="100%">
+		<html:style>
+			.imgCircle {
+				border-radius: 100%;
+			}
+			.sapUiTextBold {
+			    font-weight: bold;
+			}
+		</html:style>
+		<Page enableScrolling="true" showHeader="false">
+			<l:Grid
+				class="sapUiSmallMarginTop sapUiNoContentPadding"
+				hSpacing="2"
+				defaultSpan="L10 M8 S12">
+				<Image src="{model>/img}" class="imgCircle" width="100%">
+					<layoutData>
+						<l:GridData span="L2 M3 S12" />
+					</layoutData>
+				</Image>
+				<FlexBox
+					class="sapUiSmallMarginTop sapUiNoContentPadding"
+					direction="Column"
+					alignItems="stretch">
+					<items>
+						<Title text="{model>/username}" level="H1"  titleStyle="H1"/>
+						<l:Grid
+							class="sapUiSmallMarginTop sapUiNoContentPadding"
+							hSpacing="0"
+							defaultSpan="L4 M6 S12" width="100%">
+							<l:Grid
+								class="sapUiNoContentPadding"
+								hSpacing="0"
+								vSpacing="0.5"
+								defaultSpan="L6 M6 S6" width="100%">
+								<Text text="{i18n>PersTabNo}" class="sapUiTextBold"/>
+								<Text text="{model>/pernr}" />
+								<Text text="{i18n>PersShD}" class="sapUiTextBold"/>
+								<Text text="{model>/subt}" />
+								<Text text="{i18n>PersBDate}" class="sapUiTextBold"/>
+								<Text text="{model>/bdate}" />
+								<Text text="{i18n>PersGrade}" class="sapUiTextBold"/>
+								<Text text="{model>/grade}" />
+								<Text text="{i18n>PersPotential}" class="sapUiTextBold"/>
+								<core:Icon
+										src="sap-icon://sys-enter-2"
+										class="sapUiTinyMarginEnd"
+										color="green" />
+							</l:Grid>
+							<l:Grid
+								class="sapUiNoContentPadding"
+								hSpacing="0"
+								vSpacing="0.5"
+								defaultSpan="L6 M6 S6" width="100%">
+								<HBox>
+									<core:Icon
+										src="sap-icon://building"
+										class="sapUiTinyMarginEnd"
+										color="#1C4C98" />
+									<Text text="{i18n>PersSubdivision}" class="sapUiTextBold"/>
+								</HBox>
+								<Text text="{model>/subdivision}" />
+								<HBox>
+									<core:Icon
+										src="sap-icon://initiative"
+										class="sapUiTinyMarginEnd"
+										color="#1C4C98" />
+									<Text text="{i18n>PersManager}" class="sapUiTextBold"/>
+								</HBox>
+								<Text text="{model>/manager}" />
+								<Button
+									type="Transparent"
+									icon="sap-icon://create-entry-time"
+									text="{model>/event}"
+									press=".handleEventPress">
+									<layoutData>
+										<l:GridData span="L12 M12 S12" />
+									</layoutData>
+								</Button>
+							</l:Grid>
+							<Button text="3" type="Accept" width="100%"/>
+						</l:Grid>
+					</items>
+				</FlexBox>
+			</l:Grid>
+			<MessageStrip
+				text="{model>/warningMsg}"
+				type="Warning"
+				showIcon="true"
+				showCloseButton="true"
+				class="sapUiNoContentPadding">
+			</MessageStrip>
+			
+			<IconTabBar
+				id="idIconTabBar"
+				expandable="false"
+				expanded="true"
+				class="sapUiNoContentPadding"
+				select="handleTabSelect">
+				<items>
+					<IconTabFilter
+						key="General"
+						text="{i18n>PesrTabsGeneral}">
+						<Panel id="idTabGeneral" class="sapUiNoContentPadding">
+						</Panel>
+					</IconTabFilter>
+					<IconTabFilter
+						key="Succession"
+						text="{i18n>PersTabsSuccession}">
+						<Panel id="idTabSuccession" class="sapUiNoContentPadding">
+						</Panel>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+			<footer>
+				<Bar>
+					<contentRight>
+						<Button id="edit" text="{i18n>Edit}" press="handleEditPress" />
+						<Button id="save" text="{i18n>Save}" type="Emphasized" visible="false" press="handleSavePress" />
+						<Button id="cancel" text="{i18n>Cancel}" visible="false" press="handleCancelPress" />
+						<Button 
+							id="idBtnDefineSuccessor" 
+							text="{i18n>BtnDefineSuccessor}" 
+							type="Emphasized" 
+							press="handleDefineSuccessorPress" 
+							visible="{modelParam>/btnsVisible/Succession}">
+							<customData>
+								<core:CustomData key="eventType" value="successor" />
+							</customData>
+						</Button>
+						<Button 
+							id="idBtnDefineEmployeeAsSuccessor" 
+							text="{i18n>BtnDefineEmployeeAsSuccessor}" 
+							type="Emphasized" 
+							press="handleDefineSuccessorPress" 
+							visible="{modelParam>/btnsVisible/Succession}">
+							<customData>
+								<core:CustomData key="eventType" value="employee" />
+							</customData>
+						</Button>
+					</contentRight>
+				</Bar>
+			</footer>
+		</Page>
+</mvc:View>

@@ -1,0 +1,94 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<Toolbar >
+			<core:Icon
+				src="sap-icon://activity-individual"
+				class="sapUiSmallMarginBegin"/>
+			<Title class="sapUiTinyMarginBegin" level="H3" titleStyle="H3" text="{i18n>PesrTabsGeneral}" />
+			<ToolbarSpacer />
+		</Toolbar>
+		<HBox class="sapUiMediumMarginBegin sapUiTinyMargin">
+			<core:Icon
+				src="sap-icon://status-positive"
+				class="sapUiTinyMarginEnd"
+				color="{
+					parts: ['model>/status/risk','model>/status/potential'],
+					formatter: 'util.Formatter.statusIcon'
+				}"/>
+			<Text text="{model>/status/risk} - {model>/status/potential}" />
+		</HBox>
+		<HBox class="sapUiMediumMarginBegin sapUiTinyMargin">
+			<core:Icon
+				src="sap-icon://flag"
+				class="sapUiTinyMarginEnd"/>
+			<Text text="{model>/position}" />
+		</HBox>
+		<HBox class="sapUiMediumMarginBegin sapUiTinyMargin">
+			<core:Icon
+				src="sap-icon://post"
+				class="sapUiTinyMarginEnd"/>
+			<Text text="{model>/language}" />
+		</HBox>
+		<HBox class="sapUiMediumMarginBegin sapUiTinyMargin">
+			<core:Icon
+				src="sap-icon://competitor"
+				class="sapUiTinyMarginEnd"/>
+			<Text text="{model>/competit}" />
+		</HBox>
+		<HBox class="sapUiMediumMarginBegin sapUiTinyMargin">
+			<core:Icon
+				src="sap-icon://laptop"
+				class="sapUiTinyMarginEnd"/>
+			<Text text="{model>/topproject}" />
+		</HBox>
+		<HBox class="sapUiMediumMarginBegin sapUiTinyMargin">
+			<core:Icon
+				src="sap-icon://study-leave"
+				class="sapUiTinyMarginEnd"/>
+			<Text text="{i18n>PesrTabsGeneralExpertPotential} - {model>/expertpotential}" />
+		</HBox>
+		<f:SimpleForm
+			maxContainerCols="2"
+			layout="ResponsiveGridLayout" >
+			<f:title>
+				<core:Title 
+					icon="sap-icon://up"
+					text="{i18n>PesrTabsGeneralStrengths}" />
+			</f:title>
+			<Table
+				items="{model>/strengths}">
+				<columns>
+					<Column/>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<Text text="{model>id}. {model>name}"/>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</f:SimpleForm>
+		<f:SimpleForm
+			maxContainerCols="2"
+			layout="ResponsiveGridLayout" >
+			<f:title>
+				<core:Title 
+					icon="sap-icon://example"
+					text="{i18n>PesrTabsGeneralGrowth}" />
+			</f:title>
+			<Table
+				items="{model>/growth}">
+				<columns>
+					<Column styleClass="sapUiTinyMargin sapUiNoContentPadding"/>
+				</columns>
+				<items>
+					<ColumnListItem class="sapUiTinyMargin sapUiNoContentPadding">
+						<Text text="{model>id}. {model>name}" />
+					</ColumnListItem>
+				</items>
+			</Table>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>

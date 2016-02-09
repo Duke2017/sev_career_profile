@@ -1,0 +1,82 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+		<Table
+			items="{
+				path: 'model>/continuity',
+				sorter: {
+					path: 'group',
+					descending: true,
+					group: true
+				},
+				groupHeaderFactory: 'util.Formatter.successionHeaderFactory'
+			}">
+			<columns>
+				<Column width="20rem">
+					<Text text="{i18n>PersTabsSuccessionColName}" />
+				</Column>
+				<Column>
+					<Text text="{i18n>PersTabsSuccessionColPosition}" />
+				</Column>
+				<Column
+					width="12em">
+					<Text text="{i18n>PersTabsSuccessionColSubdivision}" />
+				</Column>
+				<Column>
+					<Text text="{i18n>PersTabsSuccessionColReserveType}" />
+				</Column>
+				<Column >
+					<Text text="{i18n>PersTabsSuccessionColReadyness}" />
+				</Column>
+				<Column hAlign="Center">
+					<Text text="{i18n>PersTabsSuccessionColRang}" />
+				</Column>
+				<Column hAlign="Center">
+					<Text text="{i18n>PersTabsSuccessionColManagePotential}" />
+				</Column>
+				<Column hAlign="Center" width="2em">
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem vAlign="Middle" class="sapUiSizeCompact">
+					<cells>
+						<HBox alignItems="Center">
+							<Image src="{model>/img}" class="imgCircle" width="3rem"/>
+							<core:Icon
+								src="sap-icon://status-positive"
+								class="sapUiTinyMarginBeginEnd"
+								color="{
+									parts: ['model>status/risk','model>status/potential'],
+									formatter: 'util.Formatter.statusIcon'
+								}"/>
+							<Link text="{model>name}"/>
+						</HBox>
+						<Text text="{model>position}" />
+						<Text text="{model>subdivision}" />
+						<Select>
+							<core:Item text="Оперативный"></core:Item>
+							<core:Item text="Долгосрочный"></core:Item>
+						</Select>
+						<Select>
+							<core:Item text="1 год"></core:Item>
+							<core:Item text="2 года"></core:Item>
+							<core:Item text="3 года"></core:Item>
+						</Select>
+						<Select>
+							<core:Item text="A"></core:Item>
+							<core:Item text="B"></core:Item>
+							<core:Item text="C"></core:Item>
+						</Select>
+						<CheckBox selected="{model>managePotential}" editable="true" />
+						<Button 
+							icon="sap-icon://decline"
+							type="Transparent"
+							press=".handleSuccessorDelete"/>
+					</cells>
+
+				</ColumnListItem>
+			</items>
+		</Table>
+</core:FragmentDefinition>

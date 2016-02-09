@@ -1,0 +1,141 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+
+	<f:SimpleForm
+		maxContainerCols="2"
+		editable="true"
+		layout="ResponsiveGridLayout"
+		title="{i18n>PersTabsSuccessionDefineSuccessor}"
+		labelSpanL="3"
+		labelSpanM="3"
+		emptySpanL="4"
+		emptySpanM="4"
+		columnsL="2"
+		columnsM="2"
+		class="">
+		<f:content>
+			<Label text="{i18n>PersTabsSuccessionDefineSuccessorFIO}" />
+			<Select width="100%">
+				<layoutData>
+					<l:GridData span="L8 M8 S8"/>
+				</layoutData>
+				<core:Item key="" text="Смирнов Сергей Александрович" />
+			</Select>
+		</f:content>
+	</f:SimpleForm>
+
+	<f:SimpleForm
+		
+		maxContainerCols="2"
+		editable="true"
+		layout="ResponsiveGridLayout"
+		title="{i18n>PersTabsSuccessionDefineSuccessorCondition}"
+		labelSpanL="3"
+		labelSpanM="3"
+		emptySpanL="4"
+		emptySpanM="4"
+		columnsL="1"
+		columnsM="1"
+		class="">
+		<f:content>
+			<Label text="{i18n>PersTabsSuccessionColReserveType}" />
+			<Select width="100%">
+				<layoutData>
+					<l:GridData span="L8 M8 S8"/>
+				</layoutData>
+				<core:Item key="" text="Долгосрочный" />
+				<core:Item key="" text="Оперативный" />
+			</Select>
+
+			<Label text="{i18n>PersTabsSuccessionColReadyness}" />
+			<RadioButtonGroup columns="3">
+				<layoutData>
+					<l:GridData span="L8 M8 S8"/>
+				</layoutData>
+				<buttons>
+					<RadioButton id="RB1-1" text="&lt; 1 года"/>
+					<RadioButton id="RB1-2" text="2 года" />
+					<RadioButton id="RB1-3" text="3 года" />
+				</buttons>
+			</RadioButtonGroup>
+
+			<Label text="{i18n>PersTabsSuccessionColCount}" />
+			<RadioButtonGroup columns="3">
+				<layoutData>
+					<l:GridData span="L8 M8 S8"/>
+				</layoutData>
+				<buttons>
+					<RadioButton id="RB2-1" text="1"/>
+					<RadioButton id="RB2-2" text="2" />
+					<RadioButton id="RB2-3" text="1" />
+				</buttons>
+			</RadioButtonGroup>
+		</f:content>
+	</f:SimpleForm>
+
+
+
+<!-- 
+	<Toolbar class="sapUiSmallMarginBottom">
+		<Title text="{i18n>PersTabsSuccessionDefineSuccessor}"/>
+	</Toolbar>
+	<l:Grid 
+		class="sapUiNoContentPadding sapUiSizeCompact"
+		hSpacing="1"
+		vSpacing="0"
+		defaultSpan="L4 M4 S4"
+		width="100%">
+		<Label 
+			text="{i18n>PersTabsSuccessionDefineSuccessorFIO}" 
+
+			textAlign="End"
+			class="sapUiTinyMargin"/>
+		<Select>
+			<layoutData>
+				<l:GridData span="L8 M8 S8"/>
+			</layoutData>
+			<core:Item key="" text="смирнов сергей александрович" />
+
+		</Select>
+	</l:Grid>
+
+	<Toolbar class="sapUiSmallMarginBottom">
+		<Title text="{i18n>PersTabsSuccessionDefineSuccessorCondition}"/>
+	</Toolbar>
+	<l:Grid 
+		class="sapUiNoContentPadding sapUiSizeCompact"
+		hSpacing="1"
+		vSpacing="0"
+		defaultSpan="L4 M4 S4"
+		width="100%">
+		<Text 
+			text="{i18n>PersTabsSuccessionColReserveType}" 
+			
+			textAlign="End"
+			class="sapUiTinyMargin"/>
+
+		<Select>
+			<layoutData>
+				<l:GridData span="L8 M8 S8"/>
+			</layoutData>
+			<core:Item key="" text="смирнов сергей александрович" />
+		</Select>
+		
+		<HBox width="100%">
+		<Label 
+			text="{i18n>PersTabsSuccessionColReadyness}" 
+			width="100%"
+			textAlign="End"
+			class="sapUiTinyMargin"/>
+		</HBox>
+		<Select>
+			<layoutData>
+				<l:GridData span="L8 M8 S8"/>
+			</layoutData>
+			<core:Item key="" text="смирнов сергей александрович" />
+		</Select>
+	</l:Grid> -->
+</core:FragmentDefinition>
