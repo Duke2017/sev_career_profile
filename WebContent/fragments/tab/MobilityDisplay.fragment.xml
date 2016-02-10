@@ -1,13 +1,190 @@
 <core:FragmentDefinition
 	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
 	xmlns:core="sap.ui.core">
-	<VBox>
+	<VBox class="sapUiSmallMargin sapUiLargeMarginBottom">
 		<HBox>
 			<core:Icon
 				src="sap-icon://world"
-				color="grey"/>
-			<Title text="{i18n>PersTabsMobilityReadyness}"/>
+				color="grey"
+				size="1.5rem"
+				class="sapUiTinyMargin"/>
+			<Title 
+				text="{i18n>PersTabsMobilityReadyness}" 
+				titleStyle="H2"
+				class="sapUiTinyMargin"/>
 			<CheckBox selected="true" editable="false" />
 		</HBox>
+
+		<!-- период 12 месяцев -->
+		<Toolbar>
+			<Title text="{i18n>PersTabsMobilityPeriod12}"></Title>
+		</Toolbar>
+		<l:Grid
+			class="sapUiSmallMarginTop sapUiNoContentPadding"
+			hSpacing="1"
+			vSpacing="0"
+			defaultSpan="L3 M3 S12">
+			<HBox>
+				<Text text="{i18n>PersTabsMobilityType}" />
+				<Text text="{model>/mobility/p12/type}" class="sapUiTextBold sapUiSmallMarginBegin" />
+			</HBox>
+			<l:Grid
+				class="sapUiNoContentPadding"
+				hSpacing="0"
+				vSpacing="0"
+				defaultSpan="L2 M3 S12">
+				<l:layoutData>
+					<l:GridData span="L9 M9 S12"/>
+				</l:layoutData>
+				<Title 
+					text="{i18n>PersTabsMobilityPlacesPros}" 
+					titleStyle="H4">
+					<layoutData>
+						<l:GridData span="L12 M12 S12"/>
+					</layoutData>
+				</Title>
+				<Text text="{i18n>PersTabsMobilityPlacesCountries}" />
+				<Text text="{model>/mobility/p12/countriesPros}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+				<Text text="{i18n>PersTabsMobilityPlacesCities}" />
+				<Text text="{model>/mobility/p12/сitiesPros}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+
+				<Title
+					class="sapUiSmallMarginTop"
+					text="{i18n>PersTabsMobilityPlacesCons}" 
+					titleStyle="H4">
+					<layoutData>
+						<l:GridData span="L12 M12 S12"/>
+					</layoutData>
+				</Title>
+				<Text text="{i18n>PersTabsMobilityPlacesCountries}" />
+				<Text text="{model>/mobility/p12/countriesCons}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+				<Text text="{i18n>PersTabsMobilityPlacesCities}" />
+				<Text text="{model>/mobility/p12/сitiesCons}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+			</l:Grid>
+
+			<HBox class="sapUiSmallMarginTop">
+				<Text text="{i18n>PersTabsMobilityDate}" />
+				<Text text="{model>/mobility/p12/date}" class="sapUiTextBold sapUiSmallMarginBegin" />
+			</HBox>
+			<l:Grid
+				class="sapUiNoContentPadding sapUiSmallMarginTop"
+				hSpacing="0"
+				vSpacing="0"
+				defaultSpan="L2 M3 S12">
+				<l:layoutData>
+					<l:GridData span="L9 M9 S12"/>
+				</l:layoutData>
+				<Text text="{i18n>PersTabsMobilityComment}" />
+				<Text text="{model>/mobility/p12/comment}" class="sapUiTextBold" >
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+			</l:Grid>
+			
+		</l:Grid>
+
+		<!-- период 2-5 лет -->
+		<Toolbar>
+			<Title text="{i18n>PersTabsMobilityPeriod25}"></Title>
+		</Toolbar>
+		<l:Grid
+			class="sapUiSmallMarginTop sapUiNoContentPadding"
+			hSpacing="1"
+			vSpacing="0"
+
+			defaultSpan="L3 M3 S12">
+			<HBox>
+				<Text text="{i18n>PersTabsMobilityType}" />
+				<Text text="{model>/mobility/p25/type}" class="sapUiTextBold sapUiSmallMarginBegin" />
+			</HBox>
+			<l:Grid
+				class="sapUiNoContentPadding"
+				hSpacing="0"
+				vSpacing="0"
+				defaultSpan="L2 M3 S12">
+				<l:layoutData>
+					<l:GridData span="L9 M9 S12"/>
+				</l:layoutData>
+				<Title 
+					text="{i18n>PersTabsMobilityPlacesPros}" 
+					titleStyle="H4">
+					<layoutData>
+						<l:GridData span="L12 M12 S12"/>
+					</layoutData>
+				</Title>
+				<Text text="{i18n>PersTabsMobilityPlacesCountries}" />
+				<Text text="{model>/mobility/p25/countriesPros}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+				<Text text="{i18n>PersTabsMobilityPlacesCities}" />
+				<Text text="{model>/mobility/p25/сitiesPros}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+
+				<Title
+					class="sapUiSmallMarginTop"
+					text="{i18n>PersTabsMobilityPlacesCons}" 
+					titleStyle="H4">
+					<layoutData>
+						<l:GridData span="L12 M12 S12"/>
+					</layoutData>
+				</Title>
+				<Text text="{i18n>PersTabsMobilityPlacesCountries}" />
+				<Text text="{model>/mobility/p25/countriesCons}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+				<Text text="{i18n>PersTabsMobilityPlacesCities}" />
+				<Text text="{model>/mobility/p25/сitiesCons}" class="sapUiTextBold">
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+			</l:Grid>
+
+			<HBox class="sapUiSmallMarginTop">
+				<Text text="{i18n>PersTabsMobilityDate}" />
+				<Text text="{model>/mobility/p25/date}" class="sapUiTextBold sapUiSmallMarginBegin" />
+			</HBox>
+			<l:Grid
+				class="sapUiNoContentPadding sapUiSmallMarginTop"
+				hSpacing="0"
+				vSpacing="0"
+				defaultSpan="L2 M3 S12">
+				<l:layoutData>
+					<l:GridData span="L9 M9 S12"/>
+				</l:layoutData>
+				<Text text="{i18n>PersTabsMobilityComment}" />
+				<Text text="{model>/mobility/p25/comment}" class="sapUiTextBold" >
+					<layoutData>
+						<l:GridData span="L10 M9 S12"/>
+					</layoutData>
+				</Text>
+			</l:Grid>
+			
+		</l:Grid>
 	</VBox>
 </core:FragmentDefinition>

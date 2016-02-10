@@ -113,6 +113,71 @@ sap.ui.define('sap.ui.app.Component', ['sap/ui/core/UIComponent'], function(UICo
 						rang: 'A',
 						managePotential: true
 					}
+				],
+				mobility: {
+					status: true,
+					p12: {
+						type: 'Региональная',
+						placesPros:[
+							{
+								country: 'Россия',
+								cities: ['Москва', 'Череповец']
+							},
+							{
+								country: 'Испания',
+								cities: ['Рим']
+							}
+						],
+						placesCons:[
+							{
+								country: 'Россия',
+								cities: ['Южно-Сахалинск']
+							},
+							{
+								country: 'Ангола',
+								cities: ['Луанда']
+							}
+						],
+						countriesPros: ['Россия', 'Испания'],
+						сitiesPros: ['Москва', 'Череповец'],
+						countriesCons: ['Россия','Ангола'],
+						сitiesCons: ['Южно-Сахалинск','Луанда'],
+						date: '01.02.2016',
+						comment: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, eius, officiis consequatur reprehenderit aliquam ipsum aspernatur voluptates distinctio consectetur deserunt vitae explicabo in fugiat molestias porro mollitia cum veniam dolor?'
+					},
+					p25: {
+						type: 'Региональная',
+						placesPros:[
+							{
+								country: 'Россия',
+								cities: ['Москва', 'Череповец']
+							},
+							{
+								country: 'Испания',
+								cities: ['Рим']
+							}
+						],
+						placesCons:[
+							{
+								country: 'Россия',
+								cities: ['Южно-Сахалинск']
+							},
+							{
+								country: 'Ангола',
+								cities: ['Луанда']
+							}
+						],
+						countriesPros: ['Россия', 'Испания'],
+						сitiesPros: ['Москва', 'Череповец'],
+						countriesCons: ['Россия','Ангола'],
+						сitiesCons: ['Южно-Сахалинск','Луанда'],
+						date: '01.02.2016',
+						comment: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, eius, officiis consequatur reprehenderit aliquam ipsum aspernatur voluptates distinctio consectetur deserunt vitae explicabo in fugiat molestias porro mollitia cum veniam dolor?'
+					}
+				},
+				mobilityTypes:[
+					{key:'',value:'Не определено'},
+					{key:'',value:'Региональная'}
 				]
 			})
 			this.setModel(testModel, "model")
