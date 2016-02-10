@@ -52,3 +52,21 @@ CONTINUITYGROUP
 RANG
 READINESS
 RESERVETYPE
+
+/////////
+COMUNITY1: COMUNITY2: COMUNITY3: COMUNITY4:
+	name
+	id
+	
+COMUNITY:
+	description: 'Описание проекта - дополнительная информация',
+	name: 'Сообщество "Угольные шахты"',
+	country: "Россия",
+	city: "Москва",
+	begda: "12.02.11",
+	endda: "17.03.15",
+	person: "Пахоменко Валерий Иванович",
+	role: "Лидер экспертного сообщества",
+    	result: "Текст",
+	subordinates: 8,
+	keyproject: true
