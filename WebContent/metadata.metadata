@@ -1,0 +1,54 @@
+HEADERS
+	img
+	username
+	pernr
+	subt - штатка
+	bdate
+	grade
+	subdivision
+	manager
+	statusRisk
+	statusPotential
+
+
+
+TABGENERAl
+	position: "Ключевая позиция",
+	language: "Английский Язык - выше среднего",
+	competit: "Результатовность - уровень",
+	topproject: "Значимый проект - название проекта, роль в проекте",
+	expertpotential: "Да",
+
+TABGENERAlSTRENGTHS // entityset
+	id
+	name 
+		
+TABGENERALGROWTH // entityset
+	id
+	name 
+
+STATUSCOLLECTION // entityset
+	risk
+	potential
+
+EXPERTPOTENTIAL
+	value
+
+CONTINUITY: // entityset
+	group
+	img
+	statusRisk
+	statusPotential
+	name
+	position
+	subdivision
+	reserveType
+	readiness
+	rang
+	managePotential
+
+CONTINUITYGROUP
+
+RANG
+READINESS
+RESERVETYPE
