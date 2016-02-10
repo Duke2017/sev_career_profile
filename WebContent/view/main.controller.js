@@ -4,7 +4,6 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'util/Formatter'], function(Control
 
 		onInit: function(){
 			this._showFormFragment("General","Display");
-			//this._showFormFragment("Succession","Display");
 			this.modelParam = this.getOwnerComponent().getModel('modelParam');
 
 		},
@@ -106,7 +105,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'util/Formatter'], function(Control
 			if (!this._defineSuccessorDialog) {
 				this._defineSuccessorDialog = new sap.m.Dialog({
 					contentWidth: "40rem",
-					content: new sap.ui.xmlfragment("fragments.dialog.defineSuccessor", this),
+					content: new sap.ui.xmlfragment("fragments.dialog.DefineSuccessor", this),
 					beginButton: new sap.m.Button({
 						text: '{i18n>Cancel}',
 						press: (function () {
@@ -184,7 +183,7 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'util/Formatter'], function(Control
 				return oFormFragment;
 			}
 
-			oFormFragment = sap.ui.xmlfragment( "fragments.Tab" + sFragmentName, this);
+			oFormFragment = sap.ui.xmlfragment( "fragments.tab." + sFragmentName, this);
 
 			return this._formFragments[sFragmentName] = oFormFragment;
 		},

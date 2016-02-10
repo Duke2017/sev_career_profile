@@ -1,0 +1,13 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<VBox>
+		<HBox>
+			<core:Icon
+				src="sap-icon://world"
+				color="grey"/>
+			<Title text="{i18n>PersTabsMobilityReadyness}"/>
+			<CheckBox selected="true" editable="false" />
+		</HBox>
+	</VBox>
+</core:FragmentDefinition>

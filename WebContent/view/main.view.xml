@@ -118,6 +118,12 @@
 						<Panel id="idTabSuccession" class="sapUiNoContentPadding">
 						</Panel>
 					</IconTabFilter>
+					<IconTabFilter
+						key="Mobility"
+						text="{i18n>PersTabsMobility}">
+						<Panel id="idTabMobility" class="sapUiNoContentPadding">
+						</Panel>
+					</IconTabFilter>
 				</items>
 			</IconTabBar>
 			<footer>
