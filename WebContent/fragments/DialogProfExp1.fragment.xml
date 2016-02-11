@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core">
+	<SelectDialog
+			id="DialogProfExp"
+			title="Наименование проекта/сообщества/группы"
+			class="sapUiPopupWithPadding"
+			items="{/group}"
+			search="_projectValueHelpSearch"
+			confirm="_projectValueHelpClose"
+			cancel="_projectValueHelpClose">
+		<StandardListItem
+				id="list1"
+				iconDensityAware="false"
+				iconInset="false"
+				title="{name}" />
+	</SelectDialog>
+</core:FragmentDefinition>

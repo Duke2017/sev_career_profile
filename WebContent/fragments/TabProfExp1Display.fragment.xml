@@ -1,0 +1,44 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox>
+		<f:SimpleForm
+				minWidth="1024"
+				maxContainerCols="2"
+				layout="ResponsiveGridLayout" >
+			<Label text="Стаж работы в Компании"/>
+			<Text text="Value"/>
+		</f:SimpleForm>
+			<Table id="idProfExpTable"
+				   inset="false"
+				   showNoData="false" >
+				<columns>
+					<Column>
+						<Text text="Дата начала" />
+					</Column>
+					<Column>
+						<Text text="Дата окончания" />
+					</Column>
+					<Column>
+						<Text text="Штатная должность" />
+					</Column>
+					<Column>
+						<Text text="Должность" />
+					</Column>
+					<Column>
+						<Text text="Подразделение" />
+					</Column>
+					<Column>
+						<Text text="Раздел персонала" />
+					</Column>
+					<Column>
+						<Text text="Подраздел персонала" />
+					</Column>
+				</columns>
+			</Table>
+
+	</VBox>
+
+
+</core:FragmentDefinition>

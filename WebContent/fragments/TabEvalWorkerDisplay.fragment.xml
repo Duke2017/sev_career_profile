@@ -1,0 +1,46 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox>
+	<f:SimpleForm
+		minWidth="1024"
+		maxContainerCols="2"
+		layout="ResponsiveGridLayout" >
+		<f:title>
+			<core:Title	text="Годовая оценка" />
+		</f:title>
+			<Label text="Оценка руководителя"/>
+			<Text text="Value"/>
+	</f:SimpleForm>
+		<f:SimpleForm
+				minWidth="1024"
+				maxContainerCols="2"
+				layout="ResponsiveGridLayout" >
+			<f:title>
+				<core:Title text="Матирца навыков" />
+			</f:title>
+			<Link text="Информация из матрицы навыков"/>
+
+		</f:SimpleForm>
+			<f:SimpleForm
+					minWidth="1024"
+					maxContainerCols="2"
+					layout="ResponsiveGridLayout" >
+				<f:title>
+					<core:Title text="Результаты верефикации управленческого потенциала" />
+				</f:title>
+				<Label text="Оценка управленческого потенциала (ЦОиР)"/>
+				<Text text="Value"/>
+				<Label text='Оценка управленческого потенциала ("Второе мнение")'/>
+				<Text text="Value"/>
+				<Label text="Результаты тестриования"/>
+				<Text text=""/>
+				<Label text="Название теста"/>
+				<Text text="Value"/>
+
+			</f:SimpleForm>
+	</VBox>
+
+
+</core:FragmentDefinition>

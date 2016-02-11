@@ -1,0 +1,13 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox>
+		<SegmentedButton selectedButton="ProfExpButton" class="sapUiSmallMarginBottom" >
+			<Button text="Организационное присвоение" id = "ProfExpButton" press="SegmLeftBtnPress"/>
+			<Button text="Проекты / сообщества / группы" press="SegmRightBtnPress"/>
+		</SegmentedButton>
+	</VBox>
+
+
+</core:FragmentDefinition>

@@ -1,0 +1,82 @@
+<core:FragmentDefinition
+xmlns="sap.m"
+xmlns:l="sap.ui.layout"
+xmlns:f="sap.ui.layout.form"
+xmlns:core="sap.ui.core">
+	<f:SimpleForm>
+	<f:title>
+		<core:Title
+				icon="sap-icon://laptop"
+				text="Проекты / сообщества / группы" />
+	</f:title>
+
+	<List
+			id="ListProfExpRedact"
+			title="Наименование проекта/сообщества/группы"
+			class="sapUiPopupWithPadding"
+			items="{comunity>/group}">
+	<items>
+		<CustomListItem>
+			<f:SimpleForm id="SimpleFormDisplay480"
+						  minWidth="1024"
+						  maxContainerCols="2"
+						  editable="true"
+						  layout="ResponsiveGridLayout"
+						  labelSpanL="4"
+						  labelSpanM="4"
+						  emptySpanL="0"
+						  emptySpanM="0"
+						  columnsL="2"
+						  columnsM="2">
+				<f:content>
+					<core:Title  />
+					<Label text="Проект"/>
+					<Input  id = "ProfExpInput1"
+							value="{comunity>name}"
+							showValueHelp="true"
+							valueHelpRequest="projectValueHelp"/>
+					<Label text="Период"/>
+					<DatePicker
+							id="ProfExpDP1"
+							value="{comunity>begda}"
+							change="handleChange"/>
+					<DatePicker  id="ProfExpDP2"
+								 value="{comunity>endda}"
+								 change="handleChange">
+						<layoutData>
+							<l:GridData span="L4 M4 S4" />
+						</layoutData>
+					</DatePicker>
+					<Label text='Место'/>
+					<Input  id = "ProfExpInput2"
+							value="{comunity>country}"
+							showValueHelp="true"
+							valueHelpRequest="projectValueHelp"/>
+					<Input  id = "ProfExpInput3"
+							value="{comunity>city}"
+							showValueHelp="true"
+							valueHelpRequest="projectValueHelp">
+						<layoutData>
+							<l:GridData span="L4 M4 S4" />
+						</layoutData>
+					</Input>
+					<Label text="Контактное лицо"/>
+					<Input  value="{comunity>person}"/>
+					<core:Title  />
+					<Label text="Роль"/>
+					<Input  id = "ProfExpInput4"
+						value="{comunity>role}"
+						showValueHelp="true"
+						valueHelpRequest="projectValueHelp"/>
+					<Label text="Результаты"/>
+					<TextArea value="{comunity>result}" rows="3" />
+					<Label text="Подчиненных"/>
+					<Input  value="{comunity>subordinates}"/>
+					<CheckBox selected="{comunity>keyproject}" text="Ключевой проект"/>
+				</f:content>
+			</f:SimpleForm>
+		</CustomListItem>
+		</items>
+	</List>
+	</f:SimpleForm>
+</core:FragmentDefinition>

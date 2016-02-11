@@ -1,0 +1,17 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<f:SimpleForm
+		minWidth="1024"
+		maxContainerCols="2"
+		layout="ResponsiveGridLayout" >
+		<f:title>
+			<core:Title 
+				icon="sap-icon://activity-individual"
+				text="{i18n>PesrTabsGeneral}" />
+		</f:title>
+		<Label text="Label"/>
+		<Text text="Value"/>
+	</f:SimpleForm>
+</core:FragmentDefinition>

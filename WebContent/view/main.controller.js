@@ -1,20 +1,25 @@
-sap.ui.define(['sap/ui/core/mvc/Controller', 'util/Formatter'], function(Controller,Formatter){
-	"use strict";
-	Controller.extend('sap.ui.app.view.main', {
-
-		onInit: function(){
-			this._showFormFragment("General","Display");
-			this.modelParam = this.getOwnerComponent().getModel('modelParam');
-
-		},
-		handleEventPress: function(oE){
-			if (! this._oEventPopover) {
-				this._oEventPopover = sap.ui.xmlfragment("fragments.Popover", this);
-				this.getView().addDependent(this._oEventPopover);
-				this._oEventPopover.addAggregation( 'content',
+sap.ui.controller("sap.ui.app.view.main", {
+	onInit: function () {
+		this._showFormFragment("TabGeneral", "Display");
+		// проверка, если акк рабочего, если нет то PCC
+		var Worker = true;
+		if (Worker) {
+			this._showFormFragment("TabEvalWorker", "Display");
+		} else {
+			this._showFormFragment("TabEvalPcc", "Display");
+		}
+		this._showFormFragment("TabProfExpBtn", "Display");
+		//TODO убрать 1px бордер снизу .sapMPanelContent:not(.sapMPanelBGTransparent)
+		this._showFormFragment("TabProfExp1", "Display");
+	},
+	handleEventPress: function (oE) {
+		if (!this._oEventPopover) {
+			this._oEventPopover = sap.ui.xmlfragment("Fragments.Popover", this);
+			this.getView().addDependent(this._oEventPopover);
+			this._oEventPopover.addAggregation('content',
 					new sap.m.Table({
-						width:"40rem",
-						columns:[
+						width: "40rem",
+						columns: [
 							new sap.m.Column({
 								header: new sap.m.Text({text: "{i18n>PersEvTableName}"})
 							}),
@@ -29,164 +34,127 @@ sap.ui.define(['sap/ui/core/mvc/Controller', 'util/Formatter'], function(Control
 							path: "model>/userEvents",
 							template: new sap.m.ColumnListItem({
 								cells: [
-									new sap.m.Text({ text:"{model>name}"}),
-									new sap.m.Text({ text:"{model>date}", wrapping:false}),
-									new sap.m.Text({ text:"{model>desc}"}),
+									new sap.m.Text({text: "{model>name}"}),
+									new sap.m.Text({text: "{model>date}", wrapping: false}),
+									new sap.m.Text({text: "{model>desc}"})
 								]
 							})
 						}
 					})
-				)
-			}
-			
-			var oButton = oE.getSource();
-			jQuery.sap.delayedCall(0, this, function () {
-				this._oEventPopover.openBy(oButton);
-			});
+			)
+		}
 
-		},
-		/*handleStatusDialogPress: function(oE){
-			if (! this._oStatusDialog) {
-				this._oStatusDialog = new sap.m.SelectDialog({
-					title: "______",
-					items: {
-						path: "modelParam>/statusCollection",
-						template: new sap.m.StandardListItem({
-							title: "{modelParam>statusId}"
-						})
-					}
-				})//sap.ui.xmlfragment("fragments.SelectDialog", this);
-				//this._oStatusDialog.setModel(this.getView().getModel());
-			}
-			this._oStatusDialog.open();
-		},*/
-		handleSuccessorDelete: function(){
-			if (!this._succesorDeleteDialog) {
-				this._succesorDeleteDialog = new sap.m.Dialog({
-					title: '{i18n>PersTabsSuccessionDelDialogTitle}',
-					content: [
-						new sap.m.Toolbar({
-							content: [
-								new sap.m.Title({text: '{i18n>PersTabsSuccessionDelDialogSubTitle}'})
-							]
-						}).addStyleClass("sapUiTinyMarginBottom"),
-						new sap.m.Select({
-							width: "80%",
-							items: [
-								new sap.ui.core.Item({text:"Другое"})
-							]
-						}),
-						new sap.m.TextArea({
-							width: "80%",
-							rows: 4
-						})
-					],
-					beginButton: new sap.m.Button({
-						text: '{i18n>Cancel}',
-						press: (function () {
-							this._succesorDeleteDialog.close();
-						}).bind(this)
-					}),
-					endButton: new sap.m.Button({
-						text: '{i18n>Save}',
-						press: (function () {
-							this._succesorDeleteDialog.close();
-						}).bind(this)
-					}),
-				}).addStyleClass("sapUiSizeCompact")
-			}
-			this.getView().addDependent(this._succesorDeleteDialog);
-			this._succesorDeleteDialog.open();
-		},
-		handleDefineSuccessorPress: function(oE){
-			var key = oE.getSource().getCustomData().filter(function(e){ return e.getKey()==='eventType'})[0].getValue();
-			var title = oE.getSource().getText();
-			console.log(key,title);
-			if (!this._defineSuccessorDialog) {
-				this._defineSuccessorDialog = new sap.m.Dialog({
-					contentWidth: "40rem",
-					content: new sap.ui.xmlfragment("fragments.dialog.DefineSuccessor", this),
-					beginButton: new sap.m.Button({
-						text: '{i18n>Cancel}',
-						press: (function () {
-							this._defineSuccessorDialog.close();
-						}).bind(this)
-					}),
-					endButton: new sap.m.Button({
-						text: '{i18n>Save}',
-						press: (function () {
-							this._defineSuccessorDialog.close();
-						}).bind(this)
-					}),
-					/*afterClose: (function() {
-						this._defineSuccessorDialog.destroy();
-					}).bind(this)*/
-				}).addStyleClass("sapUiSizeCompact sapUiNoContentPadding")
-			}
-			this._defineSuccessorDialog.setTitle(title);
-			this.getView().addDependent(this._defineSuccessorDialog);
-			this._defineSuccessorDialog.open();
-		},
-		handleEditPress: function () {
+		var oButton = oE.getSource();
+		jQuery.sap.delayedCall(0, this, function () {
+			this._oEventPopover.openBy(oButton);
+		});
 
-			//this._oSupplier = jQuery.extend({}, this.getView().getModel().getData().SupplierCollection[0]);
-			this._toggleButtonsAndView(true);
+	},
+	_formFragments: {},
+	_showFormFragment: function (tab, type) {
+		var oPanel = this.getView().byId("id" + tab);
 
-		},
-		handleSavePress : function () {
+		oPanel.removeAllContent();
+		oPanel.insertContent(this._getFormFragment([tab, type].join('')));
+	},
+	_getFormFragment: function (sFragmentName) {
+		var oFormFragment = this._formFragments[sFragmentName];
 
-			this._toggleButtonsAndView(false);
+		if (oFormFragment) {
+			return oFormFragment;
+		}
 
-		},
-		handleCancelPress : function () {
+		oFormFragment = sap.ui.xmlfragment("Fragments." + sFragmentName, this);
 
-			//Restore the data
-			/*var oModel = this.getView().getModel();
-			var oData = oModel.getData();
+		return this._formFragments[sFragmentName] = oFormFragment;
+	},
 
-			oData.SupplierCollection[0] = this._oSupplier;
+	SegmLeftBtnPress: function () {
+		this.handleCancelPress();
+		var oPanel = this.getView().byId("idTabProfExp2");
+		oPanel.removeAllContent();
+		this._showFormFragment("TabProfExp1", "Display");
 
-			oModel.setData(oData);*/
-			this._toggleButtonsAndView(false);
+	},
+	SegmRightBtnPress: function () {
+		var oPanel = this.getView().byId("idTabProfExp1");
+		oPanel.removeAllContent();
+		this._showFormFragment("TabProfExp2", "Display");
+	},
 
-		},
-		handleTabSelect: function(oE) {
-			this._toggleButtonsAndView( false);
-		},
-		_toggleButtonsAndView : function (bEdit) {
-			var oView = this.getView();
+	handleCancelPress: function () {
+		//TODO при выборе других закладок убирать кнопки изменения в футе
 
-			oView.byId("edit").setVisible(!bEdit);
-			oView.byId("save").setVisible(bEdit);
-			oView.byId("cancel").setVisible(bEdit);
 
-			var tabKey = oView.byId('idIconTabBar').getSelectedKey()
+		 //Restore the data
+		 var oModel = this.getView().getModel("comunity");
+		 oModel.setData(this._oSaves);
 
-			var btnsVisible = this.modelParam.getData().btnsVisible;
-			Object.keys(btnsVisible).forEach(function(e){btnsVisible[e]=false});
-			if (btnsVisible.hasOwnProperty(tabKey)) btnsVisible[tabKey] = !bEdit;
-			this.modelParam.setData({btnsVisible:btnsVisible},true)	
 
-			this._showFormFragment(tabKey, bEdit ? "Change" : "Display");
-		},
-		_formFragments: {},
-		_showFormFragment : function (tab,type) {
-			var oPanel = this.getView().byId("idTab"+tab);
+		var oPanel = this.getView().byId("idTabProfExp3");
+		oPanel.removeAllContent();
+		this._showFormFragment("TabProfExp2", "Display");
+		this.getView().byId("edit").setVisible(true);
+		this.getView().byId("save").setVisible(false);
+		this.getView().byId("cancel").setVisible(false);
+	},
+	handleSavePress: function () {
+		var oPanel = this.getView().byId("idTabProfExp3");
+		oPanel.removeAllContent();
+		this._showFormFragment("TabProfExp2", "Display");
+		this.getView().byId("edit").setVisible(true);
+		this.getView().byId("save").setVisible(false);
+		this.getView().byId("cancel").setVisible(false);
+	},
+	handleEditPress: function () {
+		this._oSaves = JSON.parse(JSON.stringify(this.getView().getModel("comunity").getData()));
+		console.log(666, this._oSaves);
+		var oPanel = this.getView().byId("idTabProfExp2");
+		oPanel.removeAllContent();
+		this._showFormFragment("TabProfExp3", "Display");
+		this.getView().byId("edit").setVisible(false);
+		this.getView().byId("save").setVisible(true);
+		this.getView().byId("cancel").setVisible(true);
+	},
+	projectValueHelp: function (oController) {
+		this.inputId = oController.oSource.sId;
+		//TODO упорядочить по id
+		// create value help dialog
+		if (!this._valueHelpDialog) {
+			this._valueHelpDialog = sap.ui.xmlfragment("Fragments.DialogProfExp1", this);
+			this.getView().addDependent(this._valueHelpDialog);
+		}
+		var DataName = '';
+		switch (this.inputId) {
+			case "ProfExpInput1":
+				DataName = "comunity1";
+				break;
+			case "ProfExpInput2":
+				DataName = "comunity2";
+				break;
+			case "ProfExpInput3":
+				DataName = "comunity3";
+				break;
+			case "ProfExpInput4":
+				DataName = "comunity4";
+				break;
+		}
 
-			oPanel.removeAllContent();
-			oPanel.addContent(this._getFormFragment([tab,type].join('')));
-		},
-		_getFormFragment: function (sFragmentName) {
-			var oFormFragment = this._formFragments[sFragmentName];
-
-			if (oFormFragment) {
-				return oFormFragment;
-			}
-
-			oFormFragment = sap.ui.xmlfragment( "fragments.tab." + sFragmentName, this);
-
-			return this._formFragments[sFragmentName] = oFormFragment;
-		},
-
-	});
+		this._valueHelpDialog.setModel(this.getView().getModel(DataName));
+		// open value help dialog
+		this._valueHelpDialog.open();
+	},
+	_projectValueHelpSearch: function (evt) {
+		var sValue = evt.getParameter("value");
+		var oFilter = new sap.ui.model.Filter("name", sap.ui.model.FilterOperator.Contains, sValue);
+		evt.getSource().getBinding("items").filter([oFilter]);
+	},
+	_projectValueHelpClose: function (evt) {
+		var oSelectedItem = evt.getParameter("selectedItem");
+		if (oSelectedItem) {
+			var productInput = sap.ui.getCore().byId(this.inputId);
+			productInput.setValue(oSelectedItem.getTitle());
+		}
+		evt.getSource().getBinding("items").filter([]);
+	}
 });

@@ -1,0 +1,49 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<f:SimpleForm>
+		<f:title>
+			<core:Title
+					icon="sap-icon://laptop"
+					text="Проекты / сообщества / группы" />
+		</f:title>
+
+		<List
+				id="ListProfExp"
+				title="Наименование проекта/сообщества/группы"
+				class="sapUiPopupWithPadding"
+				items="{comunity>/group}">
+			<items>
+			<CustomListItem>
+				<Panel expandable="true" expanded="true" headerText="{comunity>name}" width="auto">
+						<content>
+							<f:SimpleForm >
+								<f:title>
+									<core:Title
+											text="{comunity>description}" />
+								</f:title>
+								<Label text="Место"/>
+								<Text text="{comunity>country}, {comunity>city}"/>
+								<Label text='Период'/>
+								<Text text="{comunity>begda} - {comunity>endda}"/>
+								<Label text="Контактное лицо"/>
+								<Text text="{comunity>person}"/>
+								<Label text="Роль"/>
+								<Text text="{comunity>role}"/>
+								<Label text="Результаты"/>
+								<Text text="{comunity>result}"/>
+								<Label text="Подчиненных"/>
+								<Text text="{comunity>subordinates}"/>
+								<Label text="Ключевой проект"/>
+								<Text text="{comunity>keyproject}"/>
+
+							</f:SimpleForm>
+						</content>
+				</Panel>
+			</CustomListItem>
+			</items>
+		</List>
+	</f:SimpleForm>
+
+</core:FragmentDefinition>

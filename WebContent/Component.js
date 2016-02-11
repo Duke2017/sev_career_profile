@@ -4,6 +4,7 @@ sap.ui.define('sap.ui.app.Component', ['sap/ui/core/UIComponent'], function(UICo
 
 	return UIComponent.extend('sap.ui.app.Component', {
 		metadata: {
+			includes : ["css/style.css"],
 			name: 'Employee profile',
 			dependencies: {
 				libs: ['sap.m'],
@@ -15,13 +16,12 @@ sap.ui.define('sap.ui.app.Component', ['sap/ui/core/UIComponent'], function(UICo
 			
 			var mConfig = this.getMetadata().getConfig();
 			var rootPath = jQuery.sap.getModulePath('sap.ui.app');
-			jQuery.sap.registerModulePath('fragments', [rootPath, 'fragments'].join('/'));
-			jQuery.sap.registerModulePath('util', [rootPath, 'util'].join('/'));
+			jQuery.sap.registerModulePath('Fragments', [rootPath, 'fragments'].join('/'));
 			var i18nModel = new sap.ui.model.resource.ResourceModel({
 				bundleUrl: [rootPath, "i18n/i18n.properties"].join("/")
-			})
+			});
 			this.setModel(i18nModel, "i18n");
-			
+			sap.ui.core.UIComponent.prototype.init.apply( this, arguments);
 
 			/* test */
 			var testModel = new sap.ui.model.json.JSONModel({
@@ -45,97 +45,106 @@ sap.ui.define('sap.ui.app.Component', ['sap/ui/core/UIComponent'], function(UICo
 						desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, iusto explicabo eligendi sequi rerum voluptatum non dicta fuga cupiditate deserunt aspernatur odio molestiae inventore enim nostrum rem dolorum nemo consectetur?"
 					}
 				],
-				warningMsg: "Название ближайшего события: 16 января - 28 февраля 2016 г.",
-				status: {
-					risk: "Высокий потенциал",
-					potential: "высокий риск ухода"
-				},
-				position: "Ключевая позиция",
-				language: "Английский Язык - выше среднего",
-				competit: "Результатовность - уровень",
-				topproject: "Значимый проект - название проекта, роль в проекте",
-				expertpotential: "Да",
-				strengths: [
-					{id: '1', name: 'Легко адаптируется,быстро достигает высокого уровня результативности.'},
-					{id: '2', name: 'Ответственный, и не боится брать на себя большую ответственность.'},
-					{id: '3', name: 'Демонстрирует системное мышление.'},
-					{id: '4', name: 'Высокий уровень самоорганизации.'},
-				],
-				growth: [
-					{id: '1', name: 'Работа с финансовыми документами.'},
-					{id: '2', name: 'Бюджеты и бизнес- планирование.'},
-					{id: '3', name: 'Сложно идут вопросы, связанные с принятием непопулярных решений.'},
-					{id: '4', name: 'Принятие непопулярных решений.'},
-				],
-				continuity: [
+				warningMsg: "Название ближайшего события: 16 января - 28 февраля 2016 г."
+			});
+			this.setModel(testModel, "model");
+
+			var comunity1 = new sap.ui.model.json.JSONModel({
+				group: [
+						{
+							name: 'Сообщество "Угольные шахты"',
+							id: "1"
+						},{
+							name: 'Сообщество "Ремонты"',
+							id: "3"
+						},{
+							name: "Управление эффективностью, Ведение структуры грейдов",
+							id: "2"
+						}
+					   ]
+				});
+			var comunity2 = new sap.ui.model.json.JSONModel({
+				group: [
 					{
-						group: 'my',
-						img: '',
-						status: {
-							risk: "Высокий потенциал",
-							potential: "высокий риск ухода"
-						},
-						name: 'Полищук Валентина Олеговна',
-						position: 'Специалист отдела разработки и обеспечения перспективными идеями',
-						subdivision: 'Наименование подразделения, в котором работает сотрудник',
-						reserveType: 'Оперативный',
-						readiness: '< 1 года',
-						rang: 'A',
-						managePotential: true
-					},
-					{
-						group: 'my',
-						img: '',
-						status: {
-							risk: "Высокий потенциал",
-							potential: "обычный риск ухода"
-						},
-						name: 'Павлов Дмитрий Леонидович',
-						position: 'Специалист отдела разработки и обеспечения перспективными идеями',
-						subdivision: 'Наименование подразделения, в котором работает сотрудник',
-						reserveType: 'Оперативный',
-						readiness: '2 года',
-						rang: 'B',
-						managePotential: false
-					},
-					{
-						group: 'me',
-						img: '',
-						status: {
-							risk: "Высокий потенциал",
-							potential: "обычный риск ухода"
-						},
-						name: 'Царёв Николай Степанович',
-						position: 'Руководитель отдела разработки и обеспечения перспективными идеями',
-						subdivision: 'Наименование подразделения, в котором работает сотрудник',
-						reserveType: 'Долгосрочный',
-						readiness: '3 года',
-						rang: 'A',
-						managePotential: true
+						name: 'Россия',
+						id: "1"
+					},{
+						name: 'Франция',
+						id: "3"
+					},{
+						name: "Замбия",
+						id: "2"
 					}
 				]
-			})
-			this.setModel(testModel, "model")
-			var testModelParam = new sap.ui.model.json.JSONModel({
-				statusCollection: [
-					{statusId:'1',name:'Высокий потенциал - обычный риск ухода'},
-					{statusId:'2',name:'Высокий потенциал - высокий риск ухода'},
-					{statusId:'3',name:'На своём месте - обычный риск ухода'},
-					{statusId:'4',name:'На своём месте - высокий риск ухода'},
-					{statusId:'5',name:'Проблемный - обычный риск ухода'},
-					{statusId:'6',name:'Проблемный - высокий риск ухода'},
-				],
-				btnsVisible: {
-					Succession: false
-				}
-				
-				
-			})
-			this.setModel(testModelParam, "modelParam")
+			});
+			var comunity3 = new sap.ui.model.json.JSONModel({
+				group: [
+					{
+						name: 'Москва',
+						id: "1"
+					},{
+						name: 'Париж',
+						id: "3"
+					},{
+						name: "Череповец",
+						id: "2"
+					}
+				]
+			});
+			var comunity4 = new sap.ui.model.json.JSONModel({
+				group: [
+					{
+						name: 'Лидер экспертного сообщества',
+						id: "1"
+					},{
+						name: 'Лидер экспертной группы',
+						id: "3"
+					},{
+						name: "Архитектор проекта",
+						id: "2"
+					}
+				]
+			});
+
+			var comunity = new sap.ui.model.json.JSONModel({
+				group: [
+					{
+						description: 'Описание проекта - дополнительная информация',
+						name: 'Сообщество "Угольные шахты"',
+						country: "Россия",
+						city: "Москва",
+						begda: "12.02.11",
+						endda: "17.03.15",
+						person: "Пахоменко Валерий Иванович",
+						role: "Лидер экспертного сообщества",
+					    result: "Текст",
+						subordinates: 8,
+						keyproject: true
+					},{
+						description: 'Описание проекта - в виде текстового прмечания',
+						name: 'Сообщество "Ремонты"',
+						country: "Франция",
+						city: "Париж",
+						begda: "11.09.11",
+						endda: "12.09.12",
+						person: "Пахоменко Валерий Иванович",
+						role: "Архитектор проекта",
+						result: "Текст",
+						subordinates: 3,
+						keyproject: false
+					}
+				]
+			});
+
+
+
+			this.setModel(comunity, "comunity");
+			this.setModel(comunity1, "comunity1");
+			this.setModel(comunity2, "comunity2");
+			this.setModel(comunity3, "comunity3");
+			this.setModel(comunity4, "comunity4");
+
 			/* /.test */
-
-
-			sap.ui.core.UIComponent.prototype.init.apply( this, arguments);
 		}
 	})
 })
