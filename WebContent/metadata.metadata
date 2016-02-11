@@ -54,10 +54,41 @@ READINESS
 RESERVETYPE
 
 /////////
+//Оценки сотрудника РСС
+RSSASSESMENT
+	result:
+	averagevalues:
+	averagemanager:
+	averagepro:
+	coir:
+	second:
+	testname:
+	
+//Оценки сотрудника Рабочие
+WORKASSESMENT
+	evaluation:
+	matrix:
+	coir:
+	second:
+	testname:
+	
+//организационное присвоение
+ORGASSIGN:
+	DUYXX: "31",
+	DUMXX: "12",
+	DUDXX: "16",
+	BEGDA: "22.02.16",
+	ENDDA: "23.02.16",
+	PLANS: "Штатная должность",
+	STELL: "Должность",
+	ORGEH: "Подразделение",
+	WERKS: "Раздел персонала",
+	BTRTL: "Подраздел персонала"
+
+//проекты/сообщества/группы
 COMUNITY1: COMUNITY2: COMUNITY3: COMUNITY4:
 	name
 	id
-	
 COMUNITY:
 	description: 'Описание проекта - дополнительная информация',
 	name: 'Сообщество "Угольные шахты"',
@@ -70,3 +101,17 @@ COMUNITY:
     	result: "Текст",
 	subordinates: 8,
 	keyproject: true
+
+//карьерные ожидания
+CAREER:
+	type:
+	level:
+	job:
+	comment:
+	aedtm:
+	careerperiod:
+	
+CAREERTYPE:
+	name:
+CAREERLEVEL:
+	name:	
